@@ -7990,7 +7990,7 @@ function makeanewquote() {
   for (let i = 0; i < j; i++) {
     var wordnumber = Math.floor(Math.random() * 7985) + 1;
     var m = Math.floor(Math.random() * 15) + 1;
-    var punctnumber = Math.floor(Math.random() * 6) + 1;
+    var punctnumber = Math.floor(Math.random() * 5);
     if (m == 10) {
       var string =
         string + database[wordnumber] + ".,?!:;-"[punctnumber] + " ";
